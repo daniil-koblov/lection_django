@@ -149,84 +149,59 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{levelname} {asctime} {module} {process} {thread} '
-                      '{message}',
-            'style': '{',
-        },
-        'simple': {
-            'format': '%(levelname)s %(message)s'
-        },
-    },
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose',
-        },
-        'file': {
-            'class': 'logging.FileHandler',
-            'filename': './log/django.log',
-            'formatter': 'verbose',
-        },
-        'file1': {
-            'class': 'logging.FileHandler',
-            'filename': './lectureapp_1_1/log/django.log',
-            'formatter': 'verbose',
-        },
-        'file2': {
-            'class': 'logging.FileHandler',
-            'filename': './lectureapp_2_1/log/django.log',
-            'formatter': 'verbose',
-        },
-        'file3': {
-            'class': 'logging.FileHandler',
-            'filename': './lectureapp_3_1/log/django.log',
-            'formatter': 'verbose',
-        },
-        'file4': {
-            'class': 'logging.FileHandler',
-            'filename': './lectureapp_4_1/log/django.log',
-            'formatter': 'verbose',
-        },
-        'file5': {
-            'class': 'logging.FileHandler',
-            'filename': './lectureapp_5_1/log/django.log',
-            'formatter': 'verbose',
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'file'],
-            'level': 'INFO',
-        },
-        'lectureapp_1_1': {
-            'handlers': ['console', 'file1'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'lectureapp_2_1': {
-            'handlers': ['console', 'file2'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'lectureapp_3_1': {
-            'handlers': ['console', 'file3'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'lectureapp_4_1': {
-            'handlers': ['console', 'file4'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-        'lectureapp_5_1': {
-            'handlers': ['console', 'file5'],
-            'level': 'DEBUG',
-            'propagate': True,
-        },
-    },
-}
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'formatters': {
+#         'verbose': {
+#             'format': '{levelname} {asctime} {module} {process} {thread} '
+#                       '{message}',
+#             'style': '{',
+#         },
+#         'simple': {
+#             'format': '%(levelname)s %(message)s'
+#         },
+#     },
+#     'handlers': {
+#         'console': {
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'verbose',
+#         },
+#         'file': {
+#             'class': 'logging.FileHandler',
+#             'filename': './log/django.log',
+#             'formatter': 'verbose',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['console', 'file'],
+#             'level': 'INFO',
+#         },
+#         'lectureapp_1_1': {
+#             'handlers': ['console', 'file1'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#         'lectureapp_2_1': {
+#             'handlers': ['console', 'file2'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#         'lectureapp_3_1': {
+#             'handlers': ['console', 'file3'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#         'lectureapp_4_1': {
+#             'handlers': ['console', 'file4'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#         'lectureapp_5_1': {
+#             'handlers': ['console', 'file5'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#     },
+# }
