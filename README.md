@@ -26,3 +26,6 @@
 
 [Ссылка на лекцию в базе](https://wiki.yandex.ru/izuchenie-programmirovanija/geekbrains/frejjmvork-django/lekcii/pjataja-lekcija.-rabota-s-administrativnojj-panelj/)
 
+## Урок 6. Развёртывание проекта.
+
+[Ссылка на лекцию в базе](https://wiki.yandex.ru/izuchenie-programmirovanija/geekbrains/frejjmvork-django/lekcii/shestaja-lekcija.-razvjortyvanie-proekta/)
