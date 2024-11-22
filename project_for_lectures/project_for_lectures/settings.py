@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'lectureapp_3_1',
     'lectureapp_4_1',
     'lectureapp_5_1',
+    'lectureapp_6_1',
 ]
 
 MIDDLEWARE = [
